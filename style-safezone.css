@@ -1,0 +1,29 @@
+#search-safezone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contribute form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+margin: 20px 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit{
+    background-color: #0077C5;
+    color: #fff;
+    height: 50px;
+    border: 1px solid;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 75%);
+    border-radius: 4px;
+}

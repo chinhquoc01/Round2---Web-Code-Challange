@@ -1,0 +1,24 @@
+#img-directive{
+    /* background-image: url("https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/dangbai2/images/su-khac-biet-giua-chi-thi-15-chi-thi-16-va-chi-thi-19-cua-thu-tuong/images/news-16212442138013d734d8.jpeg"); */
+    width: 1000px;
+    height: 1584px;
+    margin-top: 30px;
+}
+#img-directive img{
+    width: 100%;
+}
+#directive-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#search-directive{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 50px 0;
+}

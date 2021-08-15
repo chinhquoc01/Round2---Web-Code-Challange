@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 ;
+}
+body > div{
+    align-self: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    width: 380px;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #C7C7C7;
+    border-width: 1px;
+    margin-top: 10px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+}
+#intro{
+    align-items: center;
+    padding: 10px;
+}
+/* #intro a{
+    margin-top: 50px 0;
+} */
+#input{
+    height: 450px;
+    width: 350px;
+    justify-content: space-around;
+}
+#input > label{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    /* justify-content: space-around; */
+    /* padding: 10px; */
+}
+#input > label > div{
+    margin-bottom: 10px;
+}
+
+#submit{
+    background-color: #0077C5;
+    color: #fff;
+    height: 50px;
+    border: 1px solid;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 75%);
+    border-radius: 4px;
+}
+.textinput{
+    border: 1px solid #C1C5C8;
+    height: 30px;
+    padding: 0 10px 0 10px;
+   border-radius: 2px;
+}
+#input input:focus{
+    border: 1px solid #52a8ec;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset, 0 0 8px rgb(82 168 236 / 60%);
+}
+span{
+    font-size: 13px;
+}
+em{
+    font-size: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#end{
+    display: inline;
+    background-color: #ECEEF1;
+    width: 380px;
+    height: 50px;
+    bottom: 0;
+    /* margin-top: 40px; */
+    padding: 40px 30px 0 30px;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+}

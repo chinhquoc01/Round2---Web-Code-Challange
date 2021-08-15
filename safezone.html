@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Khu vực an toàn</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-safezone.css">
+    </head>
+    <body>
+        <div id="search-safezone">
+            <p>Tìm kiếm: </p>
+            <input type="text" placeholder="Hà Nội">
+            <button>Search</button>
+        </div>
+        <div style="width: 100%">
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Hanoi+(Khu%20v%E1%BB%B1c%20an%20to%C3%A0n)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+         
+            <a href="#">Báo cáo thông tin sai</a>
+        </div>
+        <div id="contribute">
+            <form action="">
+                <p>Chọn khu vực cần đánh dấu trên bản đồ</p>
+                <div id="radiopick">
+                    <label for="safe">
+                        <input type="radio" value="safe" id="safe" name="pick">
+                        An toàn
+                    </label>
+                    <label for="dagerous">
+                        <input type="radio" value="safe" id="dagerous" name="pick">
+                        Có dịch
+                    </label>
+                </div>
+                <p>Nhập thêm thông tin chi tiết: </p>
+                <input type="text">
+                <input type="file">
+                <input type="date">
+                <input id="submit" type="submit" name="" id="" value="Submit">
+                
+            </form>
+        </div>
+    </body>
+</html>
